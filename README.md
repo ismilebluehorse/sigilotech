@@ -1,16 +1,59 @@
-# sigilotech
 
-A new Flutter project.
+# 💰 Finley Spending App
 
-## Getting Started
+A beautiful, modern, and responsive Flutter application for visualizing spending across various categories. Built using MVC architecture and powered by GetX for efficient state management and routing.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🧱 Project Structure
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This app follows the **MVC (Model-View-Controller)** pattern:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+lib/
+├── controller/ # Business logic with GetX Controllers
+├── model/ # Data models (SpendingCategory, etc.)
+├── view/ # UI widgets and screens
+│ ├── pages/ # Screens (e.g., SpendingScreen, SplashScreen)
+│ ├── widgets/ # Reusable components (AppBar, BottomBar, etc.)
+│ └── Coordinates/ # Custom Routing and routes etc.
+│ 
+├── utils/ # Helper functions (icons, formatters)
+└── main.dart # Entry point
+
+
+
+---
+
+## 🧪 Features
+
+✅ Responsive UI (mobile & tablet)  
+✅ Dynamic category grid with animated progress bars  
+✅ Categorized spend tracking (under/over/threshold)  
+✅ Custom splash screen  
+✅ Custom top & bottom navigation bars  
+✅ MVC architecture for scalable codebase  
+✅ Built-in route management with GetX
+
+---
+
+## 📦 Dependencies
+
+| Package      | Purpose                          |
+|--------------|----------------------------------|
+| `get`        | State management & routing       |
+| `flutter`    | Core SDK                         |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ismilebluehorse/sigilotech
+cd sigilotech
+
+
+## For Run
+- flutter pub get
+- flutter run
