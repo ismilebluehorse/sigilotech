@@ -20,7 +20,7 @@ class CustomTopBar extends StatelessWidget implements PreferredSizeWidget {
             children: [
               Icon(Icons.ac_unit, color: AppTheme.lightPrimaryColor),
               SizedBox(width: 8),
-              Text("Hi, Super", style: AppFont.sb24),
+              Text("Hi, Super", style: AppFont.sb20),
               Spacer(),
               CircleAvatar(
                 radius: 15,

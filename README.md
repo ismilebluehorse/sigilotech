@@ -57,3 +57,14 @@ cd sigilotech
 ## For Run
 - flutter pub get
 - flutter run
+
+
+
+## For build apk
+- flutter build apk --split-per-abi --no-tree-shake-icons
+
+
+
+## 📥 Download APK
+
+👉 [**Download Latest APK**](https://drive.google.com/file/d/1XmTtOv5ljY9xqdI_jhhxLkkFq7JX-PDv/view?usp=sharing)

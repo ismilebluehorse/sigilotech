@@ -20,7 +20,7 @@ class SpendingPage extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 5),
           child: Column(
             children: [
-              DashboardBanner(title: "Keep this empty"),
+              SpendingScreenBanner(title: "Keep this empty"),
               const WhiteSpace(height: 5),
               CategorySection(),
             ],

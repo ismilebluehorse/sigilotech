@@ -60,7 +60,7 @@ class BottomBar extends StatelessWidget {
                         const WhiteSpace(height: 2),
                         Text(
                           item['title'],
-                          style: AppFont.sb14.copyWith(
+                          style: AppFont.sb10.copyWith(
                             fontSize: 10,
                             color:
                                 Get.currentRoute == item['route']

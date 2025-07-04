@@ -56,7 +56,7 @@ class CategorySection extends StatelessWidget {
                 padding: EdgeInsets.only(left: 16.0),
                 child: Align(
                   alignment: Alignment.centerLeft,
-                  child: Text("Spending by category", style: AppFont.sb24),
+                  child: Text("Spending by category", style: AppFont.sb18),
                 ),
               ),
               const WhiteSpace(height: 12),

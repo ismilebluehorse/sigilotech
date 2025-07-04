@@ -23,7 +23,7 @@ class CategoryCard extends StatelessWidget {
       children: [
         Text(
           title,
-          style: AppFont.n12.copyWith(color: AppTheme.grey2),
+          style: AppFont.n10.copyWith(color: AppTheme.grey2),
           textAlign: TextAlign.center,
         ),
         WhiteSpace(height: 6),
@@ -53,12 +53,12 @@ class CategoryCard extends StatelessWidget {
           spendRemaining < 0
               ? '\$${spendRemaining.abs().toStringAsFixed(2)}'
               : '\$${spendRemaining.toStringAsFixed(2)}',
-          style: AppFont.n12.copyWith(color: AppTheme.grey2),
+          style: AppFont.n10.copyWith(color: AppTheme.grey2),
         ),
         WhiteSpace(height: 1),
         Text(
           spendRemaining < 0 ? 'over limit' : 'left',
-          style: AppFont.n12.copyWith(color: AppTheme.grey2),
+          style: AppFont.n10.copyWith(color: AppTheme.grey2),
         ),
       ],
     );
